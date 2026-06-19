@@ -1,19 +1,15 @@
 {
     "name": "portfolio_website",
     "homepage": "https://focus110percent-ui.github.io/portfolio_website/",
-    "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-        "dev": "vite",
-        "build": "tsc -b && vite build",
-        "lint": "eslint .",
-        "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d dist",
+        "dev": "vite",
+        "build": "vite build"
     },
     "dependencies": {
-        "gh-pages": "^6.3.0",
         "react": "^19.2.6",
         "react-dom": "^19.2.6"
     },
@@ -26,6 +22,7 @@
         "eslint": "^10.3.0",
         "eslint-plugin-react-hooks": "^7.1.1",
         "eslint-plugin-react-refresh": "^0.5.2",
+        "gh-pages": "^6.3.0",
         "globals": "^17.6.0",
         "typescript": "~6.0.2",
         "typescript-eslint": "^8.59.2",
